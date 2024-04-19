@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Curriculum</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+
+</head>
+<body>
+ <div class='principal'>
+    <!----------------Div 02.---------------->
+    <div class='div-2'>
+
+     <div class='experienciaLaboral'>
+        <div class='icon-datos-personales'>
+         <h2>Experiencia Laboral</h2>
+          <div class="line-with-arrow"></div> 
+          
+     </div>
+
+     <ul class='ul-datos-personales'>
+        <li>Preparador de matemáticas</li>
+        <li>Comerciante de ropa al mayor</li>
+        <li>Editor de fotos y flyer</li>
+        <li>Vigilante diurno empresa Purolomo</li>
+    </ul>
+</div>
+
+<div class='formacionA'>
+  <div class='icon-datos-personales'>
+     <h2>Formacion Academica</h2>
+      <div class="line-with-arrow"></div> 
+ </div>
+ <ul class='ul-datos-personales'>
+     <li>Primaria: U.E.N. Roscio</li>
+     <li>Secundaria: U.E.N. Roscio</li>
+     <li>Educacion Superior: Actualmente estudiando Informatica</li>
+     <li id='insertar'></li>
+ </ul>
+</div>
+
+
+
+<div class='habilidadesD'>
+
+  <div class='icon-datos-personales margen-bottom'>
+     <h2>Habilidades y Destrezas</h2>
+      <div class="line-with-arrow"></div> 
+ </div>
+
+ <div class='divProgreso'>
+     <ul class="ol">
+        <div>
+            <li>HTML:</li>
+            <li><progress value="60" max="100" class="progresss"></progress><span>60%</span></li>  
+        </div>
+
+        <div>
+           <li>CSS : </li>
+           <li><progress value="50" max="100"></progress><span> 50%</span></li>   
+       </div>
+
+       <div>
+        <li>javascripts : </li>
+        <li><progress value="30" max="100"></progress><span class="greenn"> 30%</span></li> 
+    </div>
+
+    <div>
+        <li>Matemáticas:</li>
+        <li><progress value="80" max="100"></progress><span class="greenn"> 80%</span></li>  
+    </div>
+
+    <div>
+       <li>Redes: </li>
+       <li><progress value="50" max="100"></progress><span class="greenn"> 50%</span></li>   
+   </div>
+
+   <div>
+      <li>Fisica: </li>
+      <li><progress value="70" max="100"></progress><span class="greenn"> 70%</span></li>  
+  </div>
+
+
+
+</ul>
+
+</div>
+
+</div>
+
+</div><!--END DIV2--->
+<div class='div-1'>
+
+   <div class='perfil'>
+    <img class='imgPerfil cls' src="/Imagen/perfil.jpeg">
+    <h2 class='div1texto cls'>Nicolas MigueL Calderin Hernandez</h2>
+    <p class='div1texto cls'>Estudiante</p>
+</div> 
+
+<div class='datos-contacto'>
+ <div class='icon-datos-personales'>
+    <h2 class='div1texto'>Datos Contacto</h2> 
+     <div class="line-with-arrow"></div> 
+
+
+</div>
+<ul class='ul-datos-personales'>
+   <li>Correo: nicolas@gmail.com</li>
+   <li>Telefono:0412-476-455</li>
+   
+
+
+   <div class="redes-sociales">
+    <li>Facebook:</li>
+    <div style="width:100%">
+        <hr>
+    </div>
+    <a href="https://www.facebook.com" title="Click para ir" target="_blank"><img src="./icon/facebook.png" class="IMG-social"></a>    
+</div>
+
+<div class="redes-sociales">
+    <li>Instagram:</li>
+    <div style="width:100%">
+        <hr>
+    </div>
+    <a href="https://www.instagram.com" title="Click para ir" target="_blank"><img src="./icon/social.png" class="IMG-social"></a>    
+</div>
+
+</ul>
+</div>
+
+<div class='datos-personales'>
+
+    <div class='icon-datos-personales'>
+
+      <h2 class='div1texto'>Datos Personales</h2>  
+       <div class="line-with-arrow"></div> 
+
+  </div>
+
+  <ul class='ul-datos-personales'>
+   <li>Cedula :31869852</li>
+   <li>Ciudad :San Juan</li>
+   <li>Dirección: Avenida Boliva</li>
+   <li>Casa : #11</li>
+   <li>postal :2301</li>
+</ul>
+</div> 
+
+</div>
+
+
+</div><!--principal-->
+
+<script type="text/javascript">
+
+    let insertar = document.getElementById('insertar');
+    window.addEventListener('resize', function() {
+       let anchoViewport = window.innerWidth;
+       let altoViewport = window.innerHeight;
+       insertar.innerHTML=`ancho : ${anchoViewport} alto : ${altoViewport}`
+
+
+   });
+</script>
+</body>
+</html>

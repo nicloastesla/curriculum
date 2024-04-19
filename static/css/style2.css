@@ -1,0 +1,192 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing:border-box;
+}
+
+
+#grid-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #FFF;
+    width: 1100px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px #353535;
+    padding: 30px;
+    transition: .9s;
+}
+
+#grid-container #container-img-icon {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#grid-container #container-img-icon span {
+    position: relative;
+    color: white;
+    font:70px 'efectos';
+    animation:colorr 3s alternate infinite;
+    animation-delay:.2s;
+}
+
+#grid-container #container-img-icon span img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+
+#grid-container .ubicar-F {
+    position: relative;
+    border:none;
+    border-top: 3px solid rgba(255, 0, 0, .6);
+    border-bottom: 3px solid rgba(255, 185, 60, .7);
+    border-radius: 15px;
+    backdrop-filter: blur(6px);
+    background: rgba(0, 0, 0, .2);
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 30px;
+    transition: .8s;
+}
+
+#grid-container .ubicar-F:hover {
+    box-shadow: 7px 7px 6px rgba(0, 255, 255, .7);
+}
+
+#grid-container .ubicar-F legend {
+    background: rgba(255, 0, 0, .6);
+    padding: 6px;
+    border-radius: 10px;
+    cursor: pointer;
+    font: 18px lacra;
+    letter-spacing: .1em;
+    transition: .9s;
+}
+
+#grid-container .ubicar-F legend:hover {
+    box-shadow: 5px 5px 0 rgba(255, 255 ,255, .7);
+}
+
+#grid-container #fieldset1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: .3s;
+}
+
+#grid-container #fieldset1 .posgret {
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: rata;
+    transform: scaleY(1);
+    transition: .5s
+#grid-container #fieldset1 .posgret #ol {
+    transform: translateX(-65px);
+}
+
+#grid-container #fieldset1 .posgret ol li {
+    list-style: none;
+    font-weight: 1000;
+    text-transform: uppercase;
+}
+
+
+
+#grid-container #fieldset2 #Imagenes-p {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: .5s
+}
+
+#grid-container #fieldset2 #Imagenes-p #Proyectos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: .3s;
+}
+
+#grid-container #fieldset2 #Imagenes-p #Proyectos a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: rgba(0, 255, 255, .8);
+    transition: .3s;
+    margin-left: 18px;
+}
+
+
+
+
+
+#clienteee {
+    background: rgba(2, 255, 255, .5);
+    color: white;
+    width: 15%;
+    text-decoration: none;
+    font: 30px lacra;
+    border-radius: 5px;
+    letter-spacing: .14em;
+    padding: 5px;
+    transform: translateX(445px);
+    transition: .3s;
+}
+
+#clienteee:hover {
+    transform: translateX(445px) translateY(-15px);
+    box-shadow: 5px 5px 3px rgba(0, 255, 0, .7);
+}
+
+#grid-container .reducir_aumentar  {
+    height: 70px;
+    overflow: hidden;
+    transition: .3s;
+    background: black;
+}
+
+#grid-container .reducir_aumentar:hover {
+    box-shadow: 0 0 0 #fff;
+}
+
+#grid-container .reducir_aumentar .posgret {
+    opacity: 0
+}
+
+#grid-container .reducir_aumentar .color {
+    background: rgba(0, 255, 255, .8);
+}
+
+#grid-container .reducir_aumentar #Imagenes-p {
+    opacity: 0;
+}
+
+#grid-container .reducir_aumentar #habilidades {
+   opacity: 0; 
+}
+
+#grid-container .reducir_aumentar #experiencia {
+    opacity: 0;
+}
+
+#grid-container .reducir_aumentar #educacionn{
+    opacity: 0;
+}
+
+#grid-container .reducir_aumentar #clienteForm{
+    opacity: 0;
+}

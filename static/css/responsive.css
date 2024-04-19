@@ -1,0 +1,44 @@
+/* Estilos responsive para teléfonos */
+@media only screen and (max-width: 767px) {
+  .div-1 .perfil,
+  .div-1 .datos-personales,
+  .div-1 .datos-contacto,
+  .div-2 .experienciaLaboral,
+  .div-2 .formacionA,
+  .div-2 .habilidadesD {
+    padding: 10px;
+  }
+  
+  .div-1 .perfil img {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .div1texto {
+    font-size: 16px;
+  }
+  
+  .icon-img {
+    width: 16px;
+    margin-right: 8px;
+  }
+  
+  .ul-datos-personales li {
+    font-size: 14px;
+  }
+  
+  .redes-sociales .IMG-social {
+    width: 16px;
+    margin-right: 3px;
+  }
+  
+  .div-2 .experienciaLaboral ul,
+  .div-2 .formacionA ul,
+  .div-2 .habilidadesD ul {
+    padding-left: 10px;
+  }
+  
+  .divProgreso div {
+    width: 100%;
+  }
+}
